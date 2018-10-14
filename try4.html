@@ -50,6 +50,7 @@ body, html {
 }
 
 .caption span.border {
+  position: absolute;
   background-color: #111;
   color: #fff;
   padding: 18px;
@@ -67,7 +68,7 @@ h3 {
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
-        background-attachment: fixed;
+        background-attachment: inherit;
     }
 }
 </style>
