@@ -4,213 +4,156 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Nunito|Oswald|VT323" rel="stylesheet">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
-<style>
-
-body, html {
-  height: 100%;
-  margin: 0;
-  font: 400 16px/1.8 "Nunito", sans-serif;
-  color: #777;
-}
-
-.bkimg-1, .bkimg-2, .bkimg-3, .bkimg-4 {
-  position: relative;
-  padding: 100px;
-  height:300px;
-  opacity: 0.85;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.bkimg-1 {
-  background-image: url("https://i.imgur.com/fJ14OsJ.png");
-  min-height: 100%;
-
-}
-
-.bkimg-2 {
-  background-image: url("https://i.imgur.com/ovV48XI.jpg");
-  min-height: 100%;
-
-}
-
-.bkimg-3 {
-  background-image: url("https://i.imgur.com/QGi8iXF.png");
-  min-height: 100%;
-
-}
-
-.bkgimg-4 {
-  background-image: url("https://i.imgur.com/xawgnqZ.jpg");
-  min-height: 100%;
-
-}
-
-.caption {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #edc406;
-  opacity: .7;
-}
-
-.caption span.border {
-    background-color: #e12772;
-    color: #fff;
-    padding: 25px;
-    font-size: 25px;
-    letter-spacing: 1px;
-    opacity: .75;
-    font-family:'VT323';
-}
-
-h1 {
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-  font: 16px "Oswald", sans-serif;
-  color: #111;
-}
-
-h2 {
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-  font: 30px "VT323", sans-serif;
-  color: #ecebe8;
-
-}
-h3 {
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  font: 20px "Archivo Narrow", sans-serif;
-  color: #111;
-}
-
-a {
-  color:#249cbf;
-}
-
-.fa {
-  padding: 17px;
-  font-size: 20px;
-  width: 50px;
-  text-align: left;
-  text-decoration:none;
-  margin: 5px 2px;
-  border-radius: 100%;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-instagram {
-  background:#bc2a8d;
-  color: white;
-}
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.fa-soundcloud {
-  background: #333;
-  color: white;
-}
-.fa-github {
-  background: #333;
-  color: white;
-}
-
-.fa-spotify {
-  background: #828282;
-  color: white;
-}
-
-.fa-heartbeat {
-  background: #f0cbd3;
-  color: white;
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (min-device-height: 480px) and (max-device-height: 640px)  {
-    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
-        background-attachment: scroll;
-    }
-}
-</style>
 </head>
 
-
 <body>
-  <nav class="navbar navbar-default">
-      <div class="container-fluid">
-          <div class="navbar-header">
-             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                 <span class="sr-only">Toggle navigation</span>
-                 <span class="icon-bar"></span>
-                 <span class="icon-bar"></span>
-                 <span class="icon-bar"></span>
-             </button>
-           <a class="navbar-brand" href="#">CAROLINE L. TETI</a>
-         </div>
-         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-           <ul class="nav navbar-nav navbar-right">
-             <li class="dropdown">
-               <a href="form" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">go to<span class="caret"></span></a>
-               <ul class="dropdown-menu">
-                 <li><a href="#">ABOUT</a></li>
-                 <li><a href="#">WORK</a></li>
-                 <li><a href="#">CONTACT</a></li>
-                 <li><a href="#">COMPOSITION :: RESEARCH</a></li>
-               </ul>
-               <li class="dropdown">
-                 <a href="intention" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"aria-expanded="false">func·tion<span class="caret"></span></a>
-               </li>
-               <li><a href="templates/contact_me.html">com·mu·ni·ca·tion</a></li>
-             </ul>
-           </div>
-         </div>
-       </nav>
 
-<div class="bkimg-1">
-<div class="container-fluid">
-    <div class="img-fluid" alt="Responsive image">
-      <div class="caption">
-        <span class="border">CAROLINE L. TETI</span>
-      </div>
-    </div>
+<div class="bgimg-1">
+  <div class="caption">
+    <span class="border">CAROLINE L. TETI</span>
   </div>
 </div>
 
-<div class="theme">
-<div class="container-fluid">
-    <div style="color:#777;background-color:white;text-align:center;padding:50px 100px;text-align: justify;">
-      <h3 style="text-align:center;">Logic will get you from A to B. Imagination will take you everywhere.</h3>
-    </div>
-  </div>
+<div style="color: #777;background-color:white;text-align:center;padding:50px 100px;text-align: justify;">
+  <h3 style="text-align:center;">Logic will get you from A to B. Imagination will take you everywhere.</h3>
 </div>
-<div class="bkimg-2">
-<div class="container-fluid">
-      <div class="img-fluid" alt="Responsive image">
-        <div class="caption">
-          <span class="border" style="background-color:#f5e6bb;font-size:25px;color: #272727;">⇩ THIS IS THE WAY TO "EVERYWHERE" ⇩</span>
+
+<div class="bgimg-2">
+  <div class="caption">
+    <span class="border" style="background-color:#f5e6bb;font-size:25px;color: #272727;">⇩ THIS IS THE WAY TO "EVERYWHERE" ⇩</span>
+  </div>
+</div
+
+<div style="position:relative;">
+    <div style="color:#272727;background-color:transparent;font-family: Archivo Narrow;font-size:16px;letter-spacing: 1px;text-align:center;padding:50px 80px;text-align: justify;";>
+      <h3 style="text-align:center;">Communication Channels</h3>
+        <div style=text-align:center;>
+          <a href="https://twitter.com/retrofacd" class="fa fa-twitter"></a>
+          <a href="https://www.instagram.com/skinunderground/" class="fa fa-instagram"></a>
+          <a href="https://soundcloud.com/carolineteti" class="fa fa-soundcloud"></a>
+          <a href="https://www.linkedin.com/in/carolineteti/" class="fa fa-linkedin"></a>
+          <a href="https://github.com/retrofacd" class="fa fa-github"></a>
+          <a href="https://open.spotify.com/user/retroface" class="fa fa-spotify"></a>
+          <a href="https://ucla.academia.edu/CarolineTeti" class="fa fa-heartbeat"></a>
         </div>
       </div>
+
+  <div class="bgimg-3">
+    <div class="caption">
+      <span class="border" style="background-color:#f8cc07;font-size:25px;color: #272727;">⇨ YOU ARE HERE, NOW ⇦</span>
     </div>
   </div>
+
+<div style="color: #777;background-color:white;text-align:center;padding-top:90px;text-align: justify;">
+  <h3 style="text-align:center;">logic | logistykon | reason</h3>
+  <p style="text-align:center;">Framework: Programmming Knowledge</p>
+  <div class="row">
+      <div class="col-md-4">
+        <img src="https://i.imgur.com/tFju0lG.jpg" alt="Lights" style="width:100%">
+        <div class="vision" style="opacity:.6;padding:20px;"><h3>Geometric Construction Process: 2D Planimetric + 3D Axonometric</h3><p> St. Mary's Church, H. Brunsberg, Choir, 1292 - 1350 | UCLA | Architecture + Urban Design, 2012.</p></div>
+      </div>
+      <div class="col-md-4">
+        <img src="https://i.imgur.com/7G3olVm.png" alt="Nature" style="width:100%">
+        <div class="vision" style="opacity:.6;padding:20px;"><h3>Geometric Construction Process: 2D Planimetric + 3D Axonometric</h3><p> St. Mary's Church, H. Brunsberg, Choir, 1292 - 1350 | UCLA | Architecture + Urban Design, 2012.</p></div>
+      </div>
+      <div class="col-md-4">
+        <img src="https://i.imgur.com/Ug1GJCC.png" alt="Fjords" style="width:100%">
+        <div class="vision" style="opacity:.6;padding:20px;"><h3>Geometric Construction Process: 2D Planimetric + 3D Axonometric</h3><p> St. Mary's Church, H. Brunsberg, Choir, 1292 - 1350 | UCLA | Architecture + Urban Design, 2012.</p></div>
+    </div>
+    <div class="col-md-4">
+      <img src="https://i.imgur.com/dT7NQO5.jpg" alt="Fjords" style="width:100%">
+      <div class="vision" style="opacity:.6;padding:20px;"><h3>Serial Section of Vaulting System</h3><p> St. Mary's Church, H. Brunsberg, Choir, 1292 - 1350 | UCLA | Architecture + Urban Design, 2012.</p></div>
+    </div>
+    <div class="col-md-4">
+      <img src="https://i.imgur.com/Z3f87d8.png" alt="Fjords" style="width:100%">
+      <div class="vision" style="opacity:.6;padding:20px;"><h3>Contouring of Vaulting System</h3><p> St. Mary's Church, H. Brunsberg, Choir, 1292 - 1350 | UCLA | Architecture + Urban Design, 2012.</p></div>
+    </div>
+    <div class="col-md-4">
+      <img src="https://i.imgur.com/THRwTZu.jpg" alt="Fjords" style="width:100%">
+      <div class="vision" style="opacity:.6;padding:20px;"><h3>Geometric Construction Process: 2D Planimetric + 3D Axonometric</h3><p> St. Mary's Church, H. Brunsberg, Choir, 1292 - 1350 | UCLA | Architecture + Urban Design, 2012.</p></div>
+    </div>
+
+  </div>
+</div>
+
+
+<div style="position:relative;">
+  <div style="background-color:#272727;text-align:center;padding:50px 80px;text-align: justify;">
+    <h2>SITE WAS BORN IN LOS ANGELES, CALIFORIA</h2>
+    <h2>NOVEMBER 2018</h2>
+  </div>
+</div>
+
+<div class="bgimg-1">
+  <div class="caption">
+    <span class="border">⇧THIS WAY TO "EVERYWHERE"⇧</span>
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding-top:90px;text-align: justify;">
+  <h3 style="text-align:center;">imagination | epithymetikon | appetite</h3>
+  <p style="text-align:center;">Framework: Programmming Knowledge</p>
+  <div class="row">
+      <div class="col-md-4">
+        <img src="https://i.imgur.com/7Ah4bNa.png" alt="Lights" style="width:100%">
+        <div class="vision" style="opacity:.6"><h3>this is my work obviously</h3>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img src="https://i.imgur.com/ihss1CB.png" alt="Nature" style="width:100%">
+        <div class="vision" style="opacity:.6"><h3>this is my work obviously</h3>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img src="https://i.imgur.com/pyzeXwp.png" alt="Fjords" style="width:100%">
+        <div class="vision" style="opacity:.6"><h3>this is my work obviously</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+    <span class="border" style="background-color:#f8cc07;font-size:25px;color: #272727;">⇨ NOW, YOU ARE HERE ⇦</span>
+  </div>
+</div>
+
+<div style="color: #272727;background-color:white;text-align:center;padding:50px 100px;text-align: justify;">
+  <h3 style="text-align:center;">insight | thymoeides | spirit</h3>
+  <h2 style="color:black">Caroline L. Teti</h2>
+  <p>✰ creative/analytical hybrid with a passion for: science, technology, nature, beauty, architecture and music.
+
+    distinguished sales and business development professional in both US and Canadian markets.
+
+    <h1>
+      account/territory management,
+      creative marketing strategy,
+      branding/rebranding strategy,
+      event planning, coordinating and execution,
+      financial planning & cost allocation,
+      growth strategy for untapped markets,
+      complex problem solving,
+      transparent communication,
+      collaboration, teamwork & leadership,
+      and research pertaining to current/historical trends.
+    </h1>
+
+    Due to these diverse qualities, Caroline is able to provide customers with digital analyses & formulas to help in the planning for business optimization & growth. This allows customers to allocate their funds in smart investments including customized suggestions for organic social media marketing campaigns. These tools and insights are backed by data analytics and predictable returns in terms of client acquisition & client loyalty.
+
+  With further exploration into the data science world via USC’s Viterbi School of Engineering, Caroline is looking to parlay her adept technical skills and outstanding sales/marketing experience in her next opportunity.
+
+  <h1>She strives to provide efficient, clear and simple solutions that cut costs and help to prioritize spending accordingly in terms of priority status and impact significance.<h1> </p>
+</div>
+
+<div class="bgimg-4">
+  <div class="caption">
+    <span class="border"style="background-color:#b6d0df;font-size:25px;color: #272727;">✰ THANK YOU FOR EXPLORING ✰</span>
+  </div>
+</div>
 
 </body>
 </html>
