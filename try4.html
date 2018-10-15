@@ -12,7 +12,7 @@ body, html {
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3,.bgimg-4 {
-  /* position: relative; */
+  position: relative;
   opacity: 0.65;
   background-attachment: fixed;
   background-position: center;
@@ -41,7 +41,7 @@ body, html {
 }
 
 .caption {
-  position: relative;
+  position: absolute;
   left: 0;
   top: 50%;
   width: 100%;
@@ -50,6 +50,7 @@ body, html {
 }
 
 .caption span.border {
+  position: absolute;
   background-color: #111;
   color: #fff;
   padding: 18px;
@@ -65,11 +66,11 @@ h3 {
 }
 
 /* Turn off parallax scrolling for tablets and phones */
-/* @media only screen and (max-device-width: 1024px) {
+/@media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
         background-attachment: scroll;
     }
-} */
+}
 </style>
 </head>
 <body>
