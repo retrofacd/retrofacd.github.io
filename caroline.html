@@ -6,21 +6,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!--TO CUSTOMIZE THIS TEMPLATE, YOU CAN SELECT OTHER FONTS ON GOOGLE'S FREE FONT API  -->
+<!--TO CUSTOMIZE THIS TEMPLATE, YOU CAN SELECT OTHER FONTS ON GOOGLE'S FREE FONT API  -->
     <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Nunito|Oswald|VT323" rel="stylesheet">
-    <!-- FOR SOCIAL MEDIA BUTTONS -->
+<!-- FOR SOCIAL MEDIA BUTTONS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Caroline L. Teti</title>
 </head>
 
 <style>
-
+/* IMPORTANT, KEEP HEIGHT PERCENTAGE (100%) FOR PARRALEX EFFECT TO WORK  */
 body, html {
   height: 100%;
   margin: 0;
   font: 400 16px/1.8 "Nunito", sans-serif;
   color: #777;
 }
-
+/* THESE ARE YOUR BACKGROUND IMAGES SETTINGS, IF YOU WANT TO CUSTOMIZE THIS TEMPLATE, ONLY CHANGE YOUR IMAGE URLS */
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
   position: relative;
   opacity: 0.65;
@@ -48,7 +49,7 @@ body, html {
   background-image: url("https://i.imgur.com/xawgnqZ.jpg");
   min-height: 100%;
 }
-
+/* THESE ARE YOUR SETTINGS FOR MOBILE DEVICES/SMALLER SCREEN SIZES */
 @media screen and (max-device-width: 500px){
   .bgimg-1 {
     background-image: url("https://i.imgur.com/rcRnc1v.jpg");
@@ -67,7 +68,7 @@ body, html {
     min-height: 100%;
   }
 }
-
+/* THESE ARE YOUR STYLE SETTINGS FOR CAPTIONS  */
 .caption {
   position: absolute;
   left: 0;
@@ -77,7 +78,6 @@ body, html {
   color: #edc406;
   opacity: .7;
 }
-
 .caption span.border {
     background-color: #e12772;
     color: #fff;
@@ -87,20 +87,18 @@ body, html {
     opacity: .75;
     font-family:'VT323';
 }
-
+/* THESE ARE YOUR MAIN FONT SETTINGS  */
 h1 {
   letter-spacing: 0.5px;
   text-transform: uppercase;
   font: 16px "Oswald", sans-serif;
   color: #111;
 }
-
 h2 {
   letter-spacing: 0.5px;
   text-transform: uppercase;
   font: 30px "VT323", sans-serif;
   color: #ecebe8;
-
 }
 h3 {
   letter-spacing: 3px;
@@ -112,13 +110,14 @@ h3 {
 h4 {
   letter-spacing: 0.8px;
   /* text-transform: uppercase; */
-  font: 25px "Archivo Narrow", sans-serif;
+  font: 18px "Archivo Narrow", sans-serif;
   color: #272727;
 }
+/* THIS IS YOUR COLOR SETTING FOR ANYTHING THAT HAS A LINK TAG  */
 a {
   color:#249cbf;
 }
-
+/* THESE ARE YOUR STYLE SETTINGS FOR THE SOCIAL ICONS IN THE COMMUNICATION SECTION */
 .fa {
   padding: 16px;
   font-size: 20px;
@@ -128,16 +127,13 @@ a {
   margin: 5px 2px;
   border-radius: 100%;
 }
-
 .fa:hover {
     opacity: 0.7;
 }
-
 .fa-instagram {
   background:#bc2a8d;
   color: white;
 }
-
 .fa-linkedin {
   background: #007bb5;
   color: white;
@@ -146,7 +142,6 @@ a {
   background: #55ACEE;
   color: white;
 }
-
 .fa-soundcloud {
   background: #333;
   color: white;
@@ -155,23 +150,21 @@ a {
   background: #333;
   color: white;
 }
-
 .fa-spotify {
   background: #828282;
   color: white;
 }
-
 .fa-heartbeat {
   background: #f0cbd3;
   color: white;
 }
-
+/*THIS IS HERE TO ALLOW THE PARRALEX FEATURE TO RUN VIA MOBILE DEVICE */
 @media only screen and (max-device-width: 550px) {
     .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
         background-attachment: scroll;
     }
 }
-
+/* THIS IS YOUR NAVBAR STYLE SETTINGS  */
 .navbar{
          padding-left: 0px;
          font-family: "VT323";
@@ -179,7 +172,7 @@ a {
          text-align: left;
          color: #272727;
 }
-/*NAVBAR BACKGROUND COLOR, ACCENT COLOR WHEN CLICK*/
+/* THIS IS YOUR NAVBAR BACKGROUND/ACCENT COLOR WHEN CLICKED */
 .navbar-default .navbar-brand {
     color: #ffff;
     background-color:#e12772;
@@ -189,10 +182,16 @@ a {
     font-family: "VT323";
     font-size: 20PX;
 }
-/*MAIN COLOR ACROSS NAVBAR */
+/* THIS IS YOUR MAIN COLOR ACROSS THE NAVBAR */
 .navbar {
     background-color: white;
   }
+
+.vision {
+  text-align: left;
+  opacity:.6;
+  padding:20px;
+}
 </style>
 
 <body>
@@ -235,12 +234,16 @@ a {
   </div>
 </div>
 <!-- READ ME -->
-    <div style="color: #777;background-color:white;text-align:center;padding-top:90px;text-align: justify;">
+    <div style="color: #777;background-color:white;padding:20px;">
       <div class="container-fluid" id="readme">
         <div class="col-md-12">
-          <h3 style="text-align:center;">Read Me, before any further Exploration</h3>
-          <p>This site was born from a vision as well as w3 school's lesson on the parralex effect as well as various bootstrap elements. In addition, I utilized Google's free typography from their lovely API.</p>
-          <p>In today's society, the world is literally at our fingertips and as a designer and business person, it is our responsibility to empower our audience with education, inspiration and confidence. My time in the aesthetics industry has taught me the power that skincare holds as it instantly transforms an individual's self-worth</p>
+          <h3 style="text-align:center;padding:20px">Read Me, before any further Exploration</h3>
+          <p style="font-weight:bolder; opacity:1;color:#272727";>This site was designed to inspire a digital experience that is responsive, dynamic and dimensional with respect to the device that you are exploring with. Thank you:
+          <a href=https://www.w3schools.com/>W3 Schools</a>,
+          <a href=https://getbootstrap.com/>Bootstrap</a> and
+          <a href=https://developers.google.com/fonts/>Google Fonts</a>.</p>
+          <p>Browse the graphic below in order to decode any messages or symbols on the site. I have also included the site's colorhex codes as well as the fonts featured in my design. For those who want to utilize this template in other spaces, please feel free to do so by viewing the source code and following the comments that I have included.</p>
+          <p style="font-weight:bolder; opacity:1;color:#272727";> I hope you enjoy exploring my work and that you have learned something valuable in your exploration here.</p><p>♥ Caroline L. Teti</p>
           <img src="https://i.imgur.com/4eaZTm3.png" alt="Earthquake" style="width:100%">
         </div>
       </div>
@@ -248,7 +251,7 @@ a {
     <!-- BACKGROUND IMAGE 2 -->
     <div class="bgimg-2">
       <div class="caption">
-        <span class="border" style="background-color:#f5e6bb;font-size:25px;color: #272727;">⇩ THIS IS THE WAY TO "EVERYWHERE" ⇩</span>
+        <span class="border" style="background-color:#f5e6bb;font-size:25px;color: #272727;">⇨ YOU ARE HERE, NOW ⇦</span>
       </div>
     </div
 <!-- CONTAINER WITH THESIS TEXT -->
@@ -260,7 +263,7 @@ a {
 <!-- BACKGROUND IMAGE 3 -->
   <div class="bgimg-3">
     <div class="caption">
-      <span class="border" style="background-color:#f8cc07;font-size:25px;color: #272727;">⇨ YOU ARE HERE, NOW ⇦</span>
+      <span class="border" style="background-color:#f8cc07;font-size:25px;color: #272727;">⇩ THIS WAY TO "EVERYWHERE" ⇩</span>
     </div>
   </div>
 <!-- CONTACT INFORMATION -->
@@ -268,16 +271,16 @@ a {
     <div class="container-fluid" id="contactme">
       <div style="color:#272727;background-color:transparent;font-family: Archivo Narrow;font-size:16px;letter-spacing: 1px;text-align:center;padding:50px 80px;text-align: justify;";>
         <h3 style="text-align:center;">Communication Channels</h3>
+        <p style="text-align:center;"> Location : Los Angeles, California </p>
           <div style=text-align:center;>
+            <a href="https://www.linkedin.com/in/carolineteti/" class="fa fa-linkedin"></a>
+            <a href="https://github.com/retrofacd" class="fa fa-github"></a>
+            <a href="https://ucla.academia.edu/CarolineTeti" class="fa fa-heartbeat"></a>
             <a href="https://twitter.com/retrofacd" class="fa fa-twitter"></a>
             <a href="https://www.instagram.com/skinunderground/" class="fa fa-instagram"></a>
             <a href="https://soundcloud.com/carolineteti" class="fa fa-soundcloud"></a>
-            <a href="https://www.linkedin.com/in/carolineteti/" class="fa fa-linkedin"></a>
-            <a href="https://github.com/retrofacd" class="fa fa-github"></a>
             <a href="https://open.spotify.com/user/retroface" class="fa fa-spotify"></a>
-            <a href="https://ucla.academia.edu/CarolineTeti" class="fa fa-heartbeat"></a>
-            <a href="mailto:carolinelteti@gmail.com?subject=I%20Explored%20Your%20Website%20and%20" class="btn btn-info btn-lg" style="background-color:#272727">
-              <span class="glyphicon glyphicon-envelope" style="color:#fff";></span> Email</a>
+            <a href="mailto:carolinelteti@gmail.com?subject=Message%20From%20an%20Explorer%20" class="btn btn-info btn-lg" style="background-color:#333;border-color:#333;"><span class="glyphicon glyphicon-envelope" style="color:#fff;"></span> Email</a>
           </div>
         </div>
       </div>
@@ -314,15 +317,15 @@ a {
               <span class="sr-only">20% Complete</span>
             </div>
           </div>
-          <h1>SOCIAL MEDIA INSIGHTS</h1>
+          <h1>ANALYTICS + INSIGHTS</h1>
           <div class="progress">
-            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="background-color:#f8cc07;width: 60%">
-              <span class="sr-only">60% Complete (warning)</span>
+            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="80" style="background-color:#f8cc07;width: 80%">
+              <span class="sr-only">80% Complete (warning)</span>
             </div>
           </div>
-          <h1>SOCIAL MEDIA INSIGHTS</h1>
+          <h1>USER/CUSTOMER EXPERIENCE DESIGN</h1>
           <div class="progress">
-            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="background-color:#272727;width: 80%">
+            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="70" style="background-color:#272727;width:70%">
               <span class="sr-only">80% Complete (danger)</span>
             </div>
           </div>
@@ -343,30 +346,30 @@ a {
       <div style="color: #777;background-color:white;text-align:center;padding-top:90px;text-align: justify;">
         <div class="container-fluid" id="portfolio">
           <div class="row">
-            <div class="col-md-12">
               <h3 style="text-align:center;">Framework: Data Science + Programming Experiments</h3>
+            <div class="col-md-6">
                 <img src="https://i.imgur.com/lyh7klf.jpg" alt="Earthquake" style="width:100%">
-                <div class="vision" style="opacity:.8;text-align:left;"><h4>Visualization | Leaflet.js | D3</h4>
+                <div class="vision"><h4>Visualization | Leaflet.js | D3</h4>
               </div>
             </div>
-              <div class="col-md-12">
+              <div class="col-md-6">
                 <img src="https://i.imgur.com/jgIwApU.png" alt="PythonPandas" style="width:100%">
-                <div class="vision" style="opacity:.6"><h3>Bubble Chart + Pie Charts that Explore Routing Trends, utilizing: Python,Pandas,Matplotlib.</h3>
+                <div class="vision"><h4>Bubble Chart + Pie Charts that Explore Routing Trends, utilizing: Python,Pandas,Matplotlib.</h4>
               </div>
             </div>
-              <div class="col-md-12">
+              <div class="col-md-4">
                 <img src="https://i.imgur.com/VMS2SBK.png" alt="Fjords" style="width:100%">
-                <div class="vision" style="opacity:.6"><h3>Scatter Plot with Labels, featuring: D3, Plotly.</h3>
+                <div class="vision"><h4>Scatter Plot with Labels, featuring: D3, Plotly.</h4>
               </div>
             </div>
-              <div class="col-md-12">
+              <div class="col-md-4">
                 <img src="https://i.imgur.com/pweiGug.jpg" alt="Fjords" style="width:100%">
-                <div class="vision" style="opacity:.6"><h3>Querying and Illuminating Signigicant Relationships in SQL.</h3>
+                <div class="vision"><h4>Querying and Illuminating Signigicant Relationships in SQL.</h4>
               </div>
             </div>
-              <div class="col-md-12">
+              <div class="col-md-4">
                 <img src="https://i.imgur.com/UAVgZMq.jpg" alt="Fjords" style="width:100%">
-                <div class="vision" style="opacity:.6"><h3>Dynamic Web App that visualizes traffic-collision data from API call. Powered by: javascript, leaflet.js, flask, d3.</h3>
+                <div class="vision"><h4>Dynamic Web App that visualizes traffic-collision data from API call. Powered by: javascript, leaflet.js, flask, d3.</h4>
               </div>
             </div>
           </div>
@@ -382,23 +385,23 @@ a {
 <div style="color: #777;background-color:white;text-align:center;padding-top:90px;text-align: justify;">
   <div class="container-fluid" id="logic">
   <h3 style="text-align:center;">logic | logistykon | reason</h3>
-  <p style="text-align:center;">Framework: Programmming Knowledge</p>
+  <p style="text-align:left;">Framework: Programmming Knowledge</p>
   <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-12">
         <img src="https://i.imgur.com/tFju0lG.jpg" alt="Lights" style="width:100%">
-        <div class="vision" style="opacity:.6;padding:20px;"><h3>Geometric Construction Process: 2D Planimetric + 3D Axonometric</h3><p> St. Mary's Church, H. Brunsberg, Choir, 1292 - 1350 | UCLA | Architecture + Urban Design, 2012.</p></div>
+        <div class="vision"><h4>Geometric Construction Process: 2D Planimetric + 3D Axonometric</h4><p> St. Mary's Church, H. Brunsberg, Choir, 1292 - 1350 | UCLA | Architecture + Urban Design, 2012.</p></div>
       </div>
       <div class="col-md-4">
         <img src="https://i.imgur.com/7G3olVm.png" alt="Nature" style="width:100%">
-        <div class="vision" style="opacity:.6;padding:20px;"><h3>Geometric Construction Process: 2D Planimetric + 3D Axonometric</h3><p> St. Mary's Church, H. Brunsberg, Choir, 1292 - 1350 | UCLA | Architecture + Urban Design, 2012.</p></div>
+        <div class="vision"><h4>Geometric Construction Process: 2D Planimetric + 3D Axonometric</h4><p> St. Mary's Church, H. Brunsberg, Choir, 1292 - 1350 | UCLA | Architecture + Urban Design, 2012.</p></div>
       </div>
       <div class="col-md-4">
         <img src="https://i.imgur.com/Ug1GJCC.png" alt="Fjords" style="width:100%">
-        <div class="vision" style="opacity:.6;padding:20px;"><h3>Geometric Construction Process: 2D Planimetric + 3D Axonometric</h3><p> St. Mary's Church, H. Brunsberg, Choir, 1292 - 1350 | UCLA | Architecture + Urban Design, 2012.</p></div>
+        <div class="vision"><h4>Geometric Construction Process: 2D Planimetric + 3D Axonometric</h4><p> St. Mary's Church, H. Brunsberg, Choir, 1292 - 1350 | UCLA | Architecture + Urban Design, 2012.</p></div>
     </div>
     <div class="col-md-4">
       <img src="https://i.imgur.com/dT7NQO5.jpg" alt="Fjords" style="width:100%">
-      <div class="vision" style="opacity:.6;padding:20px;"><h3>Serial Section of Vaulting System</h3><p> St. Mary's Church, H. Brunsberg, Choir, 1292 - 1350 | UCLA | Architecture + Urban Design, 2012.</p></div>
+      <div class="vision"><h4>Serial Section of Vaulting System</h4><p> St. Mary's Church, H. Brunsberg, Choir, 1292 - 1350 | UCLA | Architecture + Urban Design, 2012.</p></div>
     </div>
   </div>
 </div>
@@ -412,23 +415,23 @@ a {
 <!-- PORTFOLIO, III -->
 <div style="color: #777;background-color:white;text-align:center;padding-top:90px;text-align: justify;">
   <h3 style="text-align:center;">architecture model | aggregation | design</h3>
-  <p style="text-align:center;">Framework: Programmming Knowledge</p>
+  <p style="text-align:center;">UCLA Architecture and Urban Design - Study on Aggregation.</p>
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-12">
       <img src="https://i.imgur.com/RSaaXkX.jpg" alt="Fjords" style="width:100%">
-      <div class="vision" style="opacity:.6;padding:20px;"><h3>Aggregation.</p></div>
+      <div class="vision"><h3>Aggregation.</p></div>
     </div>
     <div class="col-md-4">
       <img src="https://i.imgur.com/blLnpfx.jpg" alt="Fjords" style="width:100%">
-      <div class="vision" style="opacity:.6;padding:20px;"><h3>Aggregation.</p></div>
+      <div class="vision"><h3>Aggregation.</p></div>
     </div>
     <div class="col-md-4">
       <img src="https://i.imgur.com/Z3f87d8.png" alt="Fjords" style="width:100%">
-      <div class="vision" style="opacity:.6;padding:20px;"><h3>Contouring of Vaulting System</h3><p> St. Mary's Church, H. Brunsberg, Choir, 1292 - 1350 | UCLA | Architecture + Urban Design, 2012.</p></div>
+      <div class="vision"><h3>Contouring of Vaulting System</h3><p> St. Mary's Church, H. Brunsberg, Choir, 1292 - 1350 | UCLA | Architecture + Urban Design, 2012.</p></div>
     </div>
     <div class="col-md-4">
       <img src="https://i.imgur.com/YwmjBnF.jpg" alt="Fjords" style="width:100%">
-      <div class="vision" style="opacity:.6;padding:20px;"><h3>Geometric Construction Process: 2D Planimetric + 3D Axonometric</h3><p> St. Mary's Church, H. Brunsberg, Choir, 1292 - 1350 | UCLA | Architecture + Urban Design, 2012.</p></div>
+      <div class="vision"><h3>Geometric Construction Process: 2D Planimetric + 3D Axonometric</h3><p> St. Mary's Church, H. Brunsberg, Choir, 1292 - 1350 | UCLA | Architecture + Urban Design, 2012.</p></div>
     </div>
   </div>
 </div>
@@ -443,21 +446,21 @@ a {
   <h3 style="text-align:center;">architecture model | installation | design</h3>
   <p style="text-align:center;">Framework: Programmming Knowledge</p>
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-12">
       <img src="https://i.imgur.com/Slt3Bbr.jpg" alt="Fjords" style="width:100%">
-      <div class="vision" style="opacity:.6;padding:20px;"><h3>Installation - Hollywood Forever</p></div>
+      <div class="vision"><h3>Installation - Hollywood Forever</p></div>
     </div>
     <div class="col-md-4">
       <img src="https://i.imgur.com/W3x66Cj.png" alt="Fjords" style="width:100%">
-      <div class="vision" style="opacity:.6;padding:20px;"><h3>Installation - Hollywood Forever</p></div>
+      <div class="vision"><h3>Installation - Hollywood Forever</p></div>
     </div>
     <div class="col-md-4">
       <img src="https://i.imgur.com/iNgml06.jpg" alt="Fjords" style="width:100%">
-      <div class="vision" style="opacity:.6;padding:20px;"><h3>Installation - Hollywood Forever</p></div>
+      <div class="vision"><h3>Installation - Hollywood Forever</p></div>
     </div>
     <div class="col-md-4">
       <img src="https://i.imgur.com/eB8WXgL.jpg" alt="Fjords" style="width:100%">
-      <div class="vision" style="opacity:.6;padding:20px;"><h3>Installation - Hollywood Forever</p></div>
+      <div class="vision"><h3>Installation - Hollywood Forever</p></div>
     </div>
   </div>
 </div>
@@ -492,19 +495,19 @@ a {
           <div class="col-md-12">
             <h1 style="padding:10px">Customizable Business Builder for Medical Aesthetics providers that are interested in growing and retaining current clientele as well as tapping into untapped markets. "Aesthetics Business Blueprints of Success": Workbook I, 2018.</h1>
             <img src="https://i.imgur.com/9pKMoC8.png" alt="Fjords" style="width:100%;padding-top:10px";>
-            <div class="vision" style="opacity:.6;padding:20px;"></div>
+            <div class="vision"></div>
           </div>
-          <div class="col-md-12">
+          <div class="col-md-4">
             <img src="https://i.imgur.com/iXravFt.png" alt="Fjords" style="width:100%">
-            <div class="vision" style="opacity:.6;padding:20px;"></div>
+            <div class="vision"></div>
           </div>
-          <div class="col-md-12">
+          <div class="col-md-4">
             <img src="https://i.imgur.com/Y5YKZyc.png" alt="Fjords" style="width:100%">
-            <div class="vision" style="opacity:.6;padding:20px;"></div>
+            <div class="vision"></div>
           </div>
-          <div class="col-md-12">
+          <div class="col-md-4">
             <img src="https://i.imgur.com/iqdgbm2.png" alt="Fjords" style="width:100%">
-            <div class="vision" style="opacity:.6;padding:20px;"></div>
+            <div class="vision"></div>
           </div>
         </div>
       </div>
@@ -521,18 +524,18 @@ a {
   <h3 style="text-align:center;">imagination | epithymetikon | appetite</h3>
   <p style="text-align:center;">Creative + Effective Marketing Grass Roots Campaigns utilizing Music and Visual Design</p>
   <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-12">
         <img src="https://i.imgur.com/U2YAvy1.jpg" alt="House of Mysteries" style="width:100%">
-        <div class="vision" style="opacity:.6"><h3>Tangible Design, Album Artwork</h3>
+        <div class="vision"><h3>Tangible Design, Album Artwork</h3>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6">
         <img src="https://i.imgur.com/RUZlPCo.jpg" alt="Marketing Design" style="width:100%">
-        <div class="vision" style="opacity:.6"><h3>Skyline Pigeons. House of Mysteries, 2012.</h3>
+        <div class="vision"<h3>Skyline Pigeons. House of Mysteries, 2012.</h3>
           <p>Developed digital and print design assets and executed targeting strategies for social media marketing campaigns. Established publishing and content partnerships with distribution channels, streaming platforms, and online publications.</p>
       </div>
     </div>
-      <div class="col-md-4">
+      <div class="col-md-6">
         <img src="https://i.imgur.com/M0hzotK.jpg" alt="Window" style="width:100%">
         <div class="vision" style="opacity:.6"><h3>Lucid. Music Video, 2012.</h3>
           <p>
@@ -593,6 +596,7 @@ a {
       <p>
         In terms of skill acquired through business, I learned the structures of various studies and their importance in a product’s validity. For instance, a double-blind randomized study has more statistical significance than just a randomized study due to the physician’s lack of bias. Within researching and studying clinical trials, I also learned the difference of white paper studies as well as published studies in scientific journals to examine possible advances in the industry. I had the privilege to work with physicians that sat on the panel of Suneva’s 5-year study and I learned the reasons for the certain measures they took to increase testing validity as well as retention rates and data significance. At my time in Suneva Medical, I engaged with several different types of people: physicians, surgeons, dermatologists, office managers, patients and podium speakers.
     </p>
+      <p>In today's society, the world is literally at our fingertips and as a designer and business person, it is our responsibility to empower our audience with education, inspiration and confidence. My time in the aesthetics industry has taught me the power that skincare holds as it instantly transforms an individual's self-worth</p>
   </div>
 </div>
 </div>
